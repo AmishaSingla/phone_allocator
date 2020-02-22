@@ -1,0 +1,8 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone: 1111111111
+two:
+  phone: 3412315678
+three:
+  phone: 9999999999
