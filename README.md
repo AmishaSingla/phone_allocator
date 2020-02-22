@@ -1,24 +1,33 @@
-# README
+# Phone Number Allocator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test project for phone number allocation
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+- Ruby version - 2.5.1
+- Rails version - 5.1
 
-* System dependencies
+1. `git clone <url>`
+2. `cd phone_allocation`
+3. `bundle install`
+4. `rake db:create`
+5. `rake db:migrate`
+6. `rails s` or `bundle exec rails s`
 
-* Configuration
+API will serve on `http:/localhost:3000`
 
-* Database creation
+# How to run APIs
 
-* Database initialization
+1. Random phone allocation API - `POST` `http://localhost:3000/phones`.
+2. Specific phone allocation API - `POST` `http://localhost:3000/phones/1234567890`
+3. List allocated phone number API - `GET` `http://localhost:3000/phones`.
 
-* How to run the test suite
+# Testing
 
-* Services (job queues, cache servers, search engines, etc.)
+Included model specs and integration specs.
 
-* Deployment instructions
+`rails test` or `bundle exec rails s`
 
-* ...
+# Contribute
+
+Please reach out to me at `amisha@fiblabs.com`
